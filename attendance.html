@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Attendance Sheet</title>
+<style>
+    @page { 
+        size: A4 landscape; 
+        margin: 15mm; 
+    }
+    body { 
+        font-family: Arial, sans-serif; 
+        font-size: 11px; 
+        margin: 0; 
+        padding: 0; 
+        background: white; 
+    }
+    .header { 
+        text-align: center; 
+        margin-bottom: 10px; 
+    }
+    .header h2 { 
+        margin: 0 0 3px 0; 
+        font-size: 16px; 
+    }
+    .header h4 { 
+        margin: 0; 
+        font-size: 12px; 
+        font-weight: normal; 
+    }
+    table { 
+        width: 100%; 
+        border-collapse: collapse; 
+        table-layout: fixed; 
+    }
+    th, td { 
+        border: 1px solid black; 
+        text-align: center; 
+        vertical-align: middle; 
+        padding: 4px 2px; 
+    }
+    .left { 
+        text-align: left; 
+        padding-left: 6px; 
+    }
+    .bold {
+        font-weight: bold;
+    }
+    .vertical { 
+        writing-mode: vertical-rl; 
+        transform: rotate(180deg); 
+        height: 100px; 
+        font-size: 10px; 
+        white-space: nowrap;
+    }
+    .holiday { 
+        writing-mode: vertical-rl; 
+        transform: rotate(180deg); 
+        font-size: 9px; 
+        letter-spacing: 1px; 
+        white-space: nowrap;
+    }
+    .col-sl { width: 25px; }
+    .col-ad { width: 35px; }
+    .col-name { width: 160px; }
+    .col-date { width: 22px; }
+    .col-remarks { width: 60px; }
+    .bottom-row { 
+        height: 30px; 
+        text-align: left; 
+        padding-left: 6px; 
+        font-weight: bold; 
+    }
+</style>
+</head>
+<body>
+
+<div class="header">
+    <h2>Attendance Sheet of Trainees on OJT</h2>
+    <h4>(To be maintained by the in supervisor)</h4>
+</div>
+
+<table>
+    <tr>
+        <td colspan="3" class="left bold">Name of Institute</td>
+        <td colspan="28" class="left bold">GOVT ITI KUTHUPARAMBA</td>
+    </tr>
+    <tr>
+        <td colspan="3" class="left bold">Name of Trade</td>
+        <td colspan="28" class="left">COMPUTER OPERATOR AND PROGRAMMING ASSISTANT (COPA)</td>
+    </tr>
+    <tr>
+        <td colspan="3" class="left bold">Name of Firm</td>
+        <td colspan="28" class="left">IRITTY MUNICIPALITY</td>
+    </tr>
+    <tr>
+        <td colspan="3" class="left bold">Period of Training</td>
+        <td colspan="2" class="left">From</td>
+        <td colspan="10" class="left">09-03-2026</td>
+        <td colspan="2" class="left">To:</td>
+        <td colspan="14" class="left">04-04-2026</td>
+    </tr>
+
+    <tr>
+        <th rowspan="2" class="col-sl">Sl<br>No</th>
+        <th rowspan="2" class="col-ad">AD<br>NO</th>
+        <th rowspan="2" class="col-name">Name of Trainee</th>
+        <th colspan="27">Dates on OJT conducted</th>
+        <th rowspan="2" class="col-remarks"><div class="vertical" style="height: 60px;">REMARKS</div></th>
+    </tr>
+    <tr>
+        <th class="col-date"><div class="vertical">09-03-2026</div></th>
+        <th class="col-date"><div class="vertical">10-03-2026</div></th>
+        <th class="col-date"><div class="vertical">11-03-2026</div></th>
+        <th class="col-date"><div class="vertical">12-03-2026</div></th>
+        <th class="col-date"><div class="vertical">13-03-2026</div></th>
+        <th class="col-date"><div class="vertical">14-03-2026</div></th>
+        <th class="col-date"><div class="vertical">15-03-2026</div></th>
+        <th class="col-date"><div class="vertical">16-03-2026</div></th>
+        <th class="col-date"><div class="vertical">17-03-2026</div></th>
+        <th class="col-date"><div class="vertical">18-03-2026</div></th>
+        <th class="col-date"><div class="vertical">19-03-2026</div></th>
+        <th class="col-date"><div class="vertical">20-03-2026</div></th>
+        <th class="col-date"><div class="vertical">21-03-2026</div></th>
+        <th class="col-date"><div class="vertical">22-03-2026</div></th>
+        <th class="col-date"><div class="vertical">23-03-2026</div></th>
+        <th class="col-date"><div class="vertical">24-03-2026</div></th>
+        <th class="col-date"><div class="vertical">25-03-2026</div></th>
+        <th class="col-date"><div class="vertical">26-03-2026</div></th>
+        <th class="col-date"><div class="vertical">27-03-2026</div></th>
+        <th class="col-date"><div class="vertical">28-03-2026</div></th>
+        <th class="col-date"><div class="vertical">29-03-2026</div></th>
+        <th class="col-date"><div class="vertical">30-03-2026</div></th>
+        <th class="col-date"><div class="vertical">31-03-2026</div></th>
+        <th class="col-date"><div class="vertical">01-04-2026</div></th>
+        <th class="col-date"><div class="vertical">02-04-2026</div></th>
+        <th class="col-date"><div class="vertical">03-04-2026</div></th>
+        <th class="col-date"><div class="vertical">04-04-2026</div></th>
+    </tr>
+
+    <tr>
+        <td>1</td>
+        <td>597</td>
+        <td class="left">SHARON MATHEW</td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td rowspan="3" class="holiday">SECOND SATURDAY</td>
+        <td rowspan="3" class="holiday">SUNDAY</td>
+        <td></td><td></td><td></td><td></td>
+        <td rowspan="3" class="holiday">EID-UL-FITR</td>
+        <td></td>
+        <td rowspan="3" class="holiday">SUNDAY</td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+        <td rowspan="3" class="holiday">SUNDAY</td>
+        <td></td><td></td><td></td>
+        <td rowspan="3" class="holiday">MAUNDY THURSDAY</td>
+        <td rowspan="3" class="holiday">GOOD FRIDAY</td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>2</td>
+        <td>655</td>
+        <td class="left">JITH JOSHY</td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td><td></td><td></td>
+        <td></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td><td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td>3</td>
+        <td>636</td>
+        <td class="left">FATHIMATHUL NIDA C M</td>
+        <td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td><td></td><td></td>
+        <td></td>
+        <td></td><td></td><td></td><td></td><td></td><td></td>
+        <td></td><td></td><td></td>
+        <td></td>
+        <td></td>
+    </tr>
+
+    <tr>
+        <td colspan="3" class="bottom-row">Sign of Instructor</td>
+        <td colspan="28"></td>
+    </tr>
+    <tr>
+        <td colspan="3" class="bottom-row">Sign of Supervisor</td>
+        <td colspan="28"></td>
+    </tr>
+</table>
+
+</body>
+</html>
+
